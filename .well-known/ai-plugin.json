@@ -1,0 +1,17 @@
+{
+  "schema_version": "v1",
+  "name_for_human": "Website Summary",
+  "name_for_model": "summary",
+  "description_for_human": "Get a summary of website content and ask questions about it.",
+  "description_for_model": "Plugin for summarizing website content and allowing users to ask questions about the summary.",
+  "auth": {
+    "type": "none"
+  },
+  "api": {
+    "type": "openapi",
+    "url": "http://localhost:5003/openapi.yaml"
+  },
+  "logo_url": "http://localhost:5003/logo.png",
+  "contact_email": "legal@example.com",
+  "legal_info_url": "http://example.com/legal"
+}

@@ -1,0 +1,6 @@
+quart
+quart-cors
+bs4
+json
+requests
+selenium

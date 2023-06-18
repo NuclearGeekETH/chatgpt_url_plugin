@@ -1,0 +1,37 @@
+openapi: 3.0.1
+info:
+  title: Website Summary Plugin
+  description: A plugin that allows the user to get a summary of website content and ask questions about it.
+  version: 'v1'
+servers:
+  - url: http://localhost:5003
+paths:
+  /summary:
+    post:
+      operationId: getSummary
+      summary: Get a summary of website content
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/getSummaryRequest'
+      responses:
+        "200":
+          description: OK
+          content:
+            text/plain:
+              schema:
+                type: string
+
+components:
+  schemas:
+    getSummaryRequest:
+      type: object
+      required:
+        - url
+      properties:
+        url:
+          type: string
+          description: The URL of the website to get the summary.
+          required: true
