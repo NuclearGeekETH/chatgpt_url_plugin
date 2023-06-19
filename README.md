@@ -10,7 +10,7 @@ To install the required packages for this plugin, run the following command:
 pip install -r requirements.txt
 ```
 
-Download chromedrive.exe according to your Chrome Browser version from [Chrome WebDriver Downloads](https://chromedriver.chromium.org/downloads) and place it into the root of the folder
+Download chromedriver.exe according to your Chrome Browser version from [Chrome WebDriver Downloads](https://chromedriver.chromium.org/downloads) and place it into the root of the folder
 
 To run the plugin, enter the following command:
 
